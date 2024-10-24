@@ -1,0 +1,17 @@
+services:
+  server1:
+    container_name: game1
+    build:
+      context: .
+    environment:
+      NODE_ENV: production
+    ports:
+      - 8070:8080
+  server2:
+    container_name: game2
+    build:
+      context: .
+    environment:
+      NODE_ENV: production
+    ports:
+      - 8090:8080

@@ -1,0 +1,12 @@
+{
+  "name": "2048-game",
+  "version": "1.0.0",
+  "description": "This is a simple web-based version of the popular 2D sliding tile app, <a href=\"https://itunes.apple.com/us/app/2048/id840919914\">2048</a>. This game was an introduction for me to Node.js.",
+  "main": "game.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
